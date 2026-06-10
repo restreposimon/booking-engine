@@ -1,0 +1,45 @@
+{
+  "name": "@strmlsys/booking-engine",
+  "version": "0.1.0",
+  "description": "Reusable booking engine that powers app.lumiagenda.co/book and every Tier 2 custom client website. Same code, one source of truth.",
+  "private": false,
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/restreposimon/booking-engine.git"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./sdk": {
+      "types": "./src/sdk/index.ts",
+      "default": "./src/sdk/index.ts"
+    },
+    "./theme": {
+      "types": "./src/theme/index.ts",
+      "default": "./src/theme/index.ts"
+    },
+    "./i18n": {
+      "types": "./src/i18n/index.ts",
+      "default": "./src/i18n/index.ts"
+    }
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.555.0"
+  }
+}

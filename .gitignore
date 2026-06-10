@@ -1,0 +1,4 @@
+# Build artifacts and deps — never mirrored to the standalone repo
+node_modules/
+dist/
+*.tsbuildinfo
