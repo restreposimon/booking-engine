@@ -1,6 +1,6 @@
 {
   "name": "@strmlsys/booking-engine",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Reusable booking engine that powers app.lumiagenda.co/book and every Tier 2 custom client website. Same code, one source of truth.",
   "private": false,
   "license": "UNLICENSED",
@@ -41,5 +41,8 @@
   "dependencies": {
     "date-fns": "^4.1.0",
     "lucide-react": "^0.555.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
