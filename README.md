@@ -280,3 +280,8 @@ changes get overwritten on the next sync.)
 ## License
 
 Proprietary — STRMLSYS. Not for redistribution.
+
+## Documentation
+
+- **[Adding the engine to a website](docs/adding-to-a-site.md)** — consumer setup: install, config, the three pages.
+- **[Maintaining & releasing](RELEASING.md)** — edit the engine, cut a release, rotate the npm token.
